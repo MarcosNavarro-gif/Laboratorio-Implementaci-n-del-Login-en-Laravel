@@ -4,8 +4,7 @@
 > Facultad de Ingeniería de Sistemas Computacionales  
 > Campus Víctor Levi Sasso  
 > **Curso:** Desarrollo Web
-> 
-> **Unidad:** I. Modelo Vista Controlador (MVC)  
+>  **Unidad:** I. Modelo Vista Controlador (MVC)  
 
 ---
 
