@@ -24,19 +24,19 @@ Durante la práctica se trabajó con PHP, Composer, Laravel, WampServer, MySQL y
 
 ## 3. Requisitos previos y tecnologías
 
-| Tecnología | Versión / uso |
-|---|---|
-| 🪟 Sistema operativo | Windows 11 |
-| 🐘 PHP | 8.3.28 (CLI) |
-| 📦 Composer | 2.10.3 |
-| 🧱 Laravel | Framework 13.38.0 |
-| 🧰 Laravel Installer | 5.32.0 |
-| 🖥️ WampServer | Entorno local; Apache y MySQL |
-| 🗄️ MySQL | Base de datos local `laravellab` |
-| 🎨 Laravel UI | 4.6.3 |
-| 🅱️ Bootstrap | Scaffolding de interfaz generado con Laravel UI |
-| 🟩 Node.js / npm | Instalación y compilación de recursos frontend |
-| 📝 Editor | [VS Code, Notepad] |
+| Tecnología | Imagen | Versión / uso |
+|---|---|---|
+| Sistema operativo | ![Imagen de Windows 11](images/tecnologias/windows-11.png) | Windows 11 |
+| PHP | ![Logo de PHP](images/tecnologias/php.png) | 8.3.28 (CLI) |
+| Composer | ![Logo de Composer](images/tecnologias/composer.png) | 2.10.3 |
+| Laravel | ![Logo de Laravel](images/tecnologias/laravel.png) | Framework 13.37.0 |
+| Laravel Installer | ![Logo de Laravel Installer](images/tecnologias/laravel-installer.png) | 5.32.0 |
+| WampServer | ![Logo de WampServer](images/tecnologias/wampserver.png) | Entorno local; Apache y MySQL |
+| MySQL | ![Logo de MySQL](images/tecnologias/mysql.png) | Base de datos local `laravellab` |
+| Laravel UI | ![Logo de Laravel UI](images/tecnologias/laravel-ui.png) | 4.6.3 |
+| Bootstrap | ![Logo de Bootstrap](images/tecnologias/bootstrap.png) | Scaffolding de interfaz generado con Laravel UI |
+| Node.js / npm | ![Logo de Node.js](images/tecnologias/nodejs.png) | Instalación y compilación de recursos frontend |
+| Editor | ![Imagen del editor](images/tecnologias/editor.png) | [Indicar editor utilizado: VS Code, Notepad++, etc.] |
 
 
 ## 4. Instalación y configuración del proyecto
