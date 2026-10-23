@@ -26,7 +26,8 @@ Durante la práctica se trabajó con PHP, Composer, Laravel, WampServer, MySQL y
 
 | Tecnología | Imagen | Versión / uso |
 |---|---|---|
-| Sistema operativo | ![Imagen de Windows 11](images/tecnologias/windows-11.png) | Windows 11 |
+| Sistema operativo | <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/afa15f10-4a84-4051-ba2e-10db79b467e4" />
+ | Windows 11 |
 | PHP | ![Logo de PHP](images/tecnologias/php.png) | 8.3.28 (CLI) |
 | Composer | ![Logo de Composer](images/tecnologias/composer.png) | 2.10.3 |
 | Laravel | ![Logo de Laravel](images/tecnologias/laravel.png) | Framework 13.37.0 |
