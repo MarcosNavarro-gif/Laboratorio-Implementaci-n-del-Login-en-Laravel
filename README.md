@@ -26,18 +26,17 @@ Durante la práctica se trabajó con PHP, Composer, Laravel, WampServer, MySQL y
 
 | Tecnología | Imagen | Versión / uso |
 |---|---|---|
-| Sistema operativo | <img width="1266" height="768" alt="image" src="https://github.com/user-attachments/assets/afa15f10-4a84-4051-ba2e-10db79b467e4" />
- | Windows 11 |
-| PHP | ![Logo de PHP](images/tecnologias/php.png) | 8.3.28 (CLI) |
-| Composer | ![Logo de Composer](images/tecnologias/composer.png) | 2.10.3 |
-| Laravel | ![Logo de Laravel](images/tecnologias/laravel.png) | Framework 13.37.0 |
-| Laravel Installer | ![Logo de Laravel Installer](images/tecnologias/laravel-installer.png) | 5.32.0 |
-| WampServer | ![Logo de WampServer](images/tecnologias/wampserver.png) | Entorno local; Apache y MySQL |
-| MySQL | ![Logo de MySQL](images/tecnologias/mysql.png) | Base de datos local `laravellab` |
-| Laravel UI | ![Logo de Laravel UI](images/tecnologias/laravel-ui.png) | 4.6.3 |
-| Bootstrap | ![Logo de Bootstrap](images/tecnologias/bootstrap.png) | Scaffolding de interfaz generado con Laravel UI |
-| Node.js / npm | ![Logo de Node.js](images/tecnologias/nodejs.png) | Instalación y compilación de recursos frontend |
-| Editor | ![Imagen del editor](images/tecnologias/editor.png) | [Indicar editor utilizado: VS Code, Notepad++, etc.] |
+| Sistema operativo | <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/afa15f10-4a84-4051-ba2e-10db79b467e4" /> | Windows 11 |
+| PHP | <img width="1280" height="691" alt="image" src="https://github.com/user-attachments/assets/de4bf4b1-e945-416b-9c4b-ed839fae3949" /> | 8.3.28 (CLI) |
+| Composer | <img width="300" height="356" alt="image" src="https://github.com/user-attachments/assets/1c66f7fb-1414-4386-a282-aeef404ca7d1" /> | 2.10.3 |
+| Laravel | <img width="655" height="468" alt="image" src="https://github.com/user-attachments/assets/9b3ef0aa-141a-4ee0-982d-2105d4cb9e7a" /> | Framework 13.38.0 |
+| Laravel Installer | <img width="655" height="468" alt="image" src="https://github.com/user-attachments/assets/71e84d73-ab0b-45e5-bdc2-848b4488c6cd" /> | 5.32.0 |
+| WampServer | <img width="554" height="552" alt="image" src="https://github.com/user-attachments/assets/1a9f05eb-0552-46e7-a28e-39391986111d" /> | Entorno local; Apache y MySQL |
+| MySQL | <img width="3000" height="2000" alt="image" src="https://github.com/user-attachments/assets/b395cdea-040d-4bc6-8970-1bbf0d243993" /> | Base de datos local `laravellab` |
+| Laravel UI | <img width="1445" height="2500" alt="image" src="https://github.com/user-attachments/assets/ee9c975d-8709-4565-8146-ed266ef04938" /> | 4.6.3 |
+| Bootstrap | <img width="3840" height="3060" alt="image" src="https://github.com/user-attachments/assets/9f486304-11c6-4c27-a280-164e2831e420" /> | Scaffolding de interfaz generado con Laravel UI |
+| Node.js / npm | <img width="960" height="588" alt="image" src="https://github.com/user-attachments/assets/71d380d5-5155-411e-a9b7-b17f5cfdc9e0" /> | Instalación y compilación de recursos frontend |
+| Editor | <img width="3840" height="3840" alt="image" src="https://github.com/user-attachments/assets/c594ebd9-9e47-4cc4-bc6c-a8850db3b6d4" /> | [VS Code, Notepad] |
 
 
 ## 4. Instalación y configuración del proyecto
