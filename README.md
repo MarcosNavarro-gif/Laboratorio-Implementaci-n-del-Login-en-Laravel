@@ -3,11 +3,8 @@
 > **Universidad Tecnológica de Panamá**  
 > Facultad de Ingeniería de Sistemas Computacionales  
 > Campus Víctor Levi Sasso  
-> **Curso:** Desarrollo Web – Lenguaje de Programación PHP  
+> **Curso:** Desarrollo Web
 > **Unidad:** I. Modelo Vista Controlador (MVC)  
-> **Instructor:** Ing. Irina Fong  
-> **Estudiante:** [Nombre completo]  
-> **Fecha de ejecución:** [Colocar fecha o fechas reales del laboratorio]
 
 ---
 
@@ -32,16 +29,15 @@ Durante la práctica se trabajó con PHP, Composer, Laravel, WampServer, MySQL y
 | 🪟 Sistema operativo | Windows 11 |
 | 🐘 PHP | 8.3.28 (CLI) |
 | 📦 Composer | 2.10.3 |
-| 🧱 Laravel | Framework 13.37.0 |
+| 🧱 Laravel | Framework 13.38.0 |
 | 🧰 Laravel Installer | 5.32.0 |
 | 🖥️ WampServer | Entorno local; Apache y MySQL |
 | 🗄️ MySQL | Base de datos local `laravellab` |
 | 🎨 Laravel UI | 4.6.3 |
 | 🅱️ Bootstrap | Scaffolding de interfaz generado con Laravel UI |
 | 🟩 Node.js / npm | Instalación y compilación de recursos frontend |
-| 📝 Editor | [Indicar editor utilizado: VS Code, Notepad++, etc.] |
+| 📝 Editor | [VS Code, Notepad] |
 
-> **Nota:** registra aquí las versiones de WampServer, MySQL/MariaDB, Node.js y npm que realmente utilizaste. No se anotaron sus versiones durante la conversación.
 
 ## 4. Instalación y configuración del proyecto
 
@@ -57,10 +53,8 @@ laravel -V
 
 **Captura 1 – Comprobación de PHP, Composer y Laravel Installer**
 
-> [!IMPORTANT]
-> Inserta aquí la captura tomada durante el laboratorio donde se vean los comandos y sus versiones.
+<img width="513" height="170" alt="Captura de pantalla 2026-10-22 202004" src="https://github.com/user-attachments/assets/abc326cc-581c-409c-ac8d-2a5268185022" />
 
-<!-- CAPTURA 1: comprobación de herramientas -->
 
 ### 4.2 Creación del proyecto Laravel
 
@@ -80,10 +74,10 @@ El proyecto quedó ubicado en `C:\wamp64\www\LaravelLab`.
 
 **Captura 2 – Creación del proyecto y opciones del instalador**
 
-> [!IMPORTANT]
-> Inserta aquí una captura del proceso `laravel new LaravelLab` y de las opciones seleccionadas.
+<img width="517" height="458" alt="Captura de pantalla 2026-10-22 173300" src="https://github.com/user-attachments/assets/1db4f428-4b65-4ee3-a5cb-c78fca07a097" />
 
-<!-- CAPTURA 2: creación del proyecto -->
+<img width="859" height="457" alt="Captura de pantalla 2026-10-22 173242" src="https://github.com/user-attachments/assets/78bdf08c-429a-4673-af35-125d852cf82d" />
+
 
 ### 4.3 Verificación y ejecución inicial
 
@@ -104,10 +98,8 @@ Se abrió la dirección local mostrada por la terminal, normalmente `http://127.
 
 **Captura 3 – Laravel ejecutándose en el navegador**
 
-> [!IMPORTANT]
-> Inserta aquí una captura de la página inicial de Laravel funcionando en el navegador.
+<img width="959" height="436" alt="Captura de pantalla 2026-10-22 203020" src="https://github.com/user-attachments/assets/1b0b7527-68f5-48d7-86a5-7b8c08202ff5" />
 
-<!-- CAPTURA 3: página inicial -->
 
 ## 5. Base de datos y migraciones
 
@@ -126,14 +118,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-> No publiques contraseñas reales, claves privadas ni otros secretos del archivo `.env` en GitHub. En el repositorio debe compartirse `.env.example`, no el `.env` personal.
 
 **Captura 4 – Base de datos `laravellab` en phpMyAdmin**
 
-> [!IMPORTANT]
-> Inserta aquí una captura de phpMyAdmin donde se vea la base de datos creada.
+<img width="958" height="482" alt="Captura de pantalla 2026-10-22 203146" src="https://github.com/user-attachments/assets/38fe21ec-c0c1-4da8-9427-9712cd1b32c9" />
 
-<!-- CAPTURA 4: base de datos -->
 
 ### 5.2 Migraciones
 
@@ -155,10 +144,8 @@ Al finalizar, las migraciones aparecieron con estado `Ran`.
 
 **Captura 5 – Migraciones ejecutadas correctamente**
 
-> [!IMPORTANT]
-> Inserta aquí una captura de `php artisan migrate` sin errores o de `php artisan migrate:status` con las migraciones en estado `Ran`.
+<img width="884" height="338" alt="Captura de pantalla 2026-10-22 182031" src="https://github.com/user-attachments/assets/f56ec25e-f40f-4390-8f8e-b88d8393c9d8" />
 
-<!-- CAPTURA 5: migraciones -->
 
 ### 5.3 Ajuste aplicado a las migraciones
 
@@ -173,7 +160,8 @@ Schema::defaultStringLength(191);
 
 También se redujo la longitud de las columnas `connection` y `queue` en la migración de `failed_jobs` a 100 caracteres para que el índice compuesto pudiera crearse en el servidor usado durante el laboratorio.
 
-> Documenta este ajuste tal como quedó en tu repositorio y confirma que el archivo de migración guardado refleja el código final utilizado.
+<img width="314" height="323" alt="image" src="https://github.com/user-attachments/assets/1cc02801-4b50-45e3-9e5b-1f188ed6a377" />
+
 
 ## 6. Instalación de autenticación con Laravel UI
 
@@ -199,10 +187,12 @@ Esto instaló las dependencias y compiló los recursos del frontend.
 
 **Captura 6 – Instalación de Laravel UI y compilación de Bootstrap**
 
-> [!IMPORTANT]
-> Inserta aquí capturas de `composer require laravel/ui`, `php artisan ui bootstrap --auth` y la compilación con npm.
+<img width="376" height="278" alt="Captura de pantalla 2026-10-22 203557" src="https://github.com/user-attachments/assets/8f7daa63-cd40-4a73-a9c8-3ad586cf4bbb" />
 
-<!-- CAPTURA 6: Laravel UI y npm -->
+<img width="479" height="135" alt="Captura de pantalla 2026-10-22 203718" src="https://github.com/user-attachments/assets/2ef09931-0f22-4b91-a7c4-30061eeb0b5d" />
+
+<img width="754" height="266" alt="Captura de pantalla 2026-10-22 203750" src="https://github.com/user-attachments/assets/7d8a5b33-2652-4ad0-86e7-41dccb9574a2" />
+
 
 ## 7. Rutas, controladores y vistas (MVC)
 
@@ -227,10 +217,8 @@ Entre las rutas generadas por Laravel UI se encontraron:
 
 **Captura 7 – Rutas de autenticación**
 
-> [!IMPORTANT]
-> Inserta aquí una captura de `php artisan route:list` donde se vean las rutas `/login`, `/register`, `/logout` y `/home`.
+<img width="775" height="314" alt="Captura de pantalla 2026-10-22 191032" src="https://github.com/user-attachments/assets/92237af4-1530-4bfd-b4bc-eaca3b6384ce" />
 
-<!-- CAPTURA 7: route:list -->
 
 ### 7.2 Organización MVC
 
@@ -247,10 +235,7 @@ Se abrió `/register` y se registró un usuario de prueba. El usuario se guardó
 
 **Captura 8 – Formulario de registro**
 
-> [!IMPORTANT]
-> Inserta aquí una captura del formulario de registro. Evita mostrar contraseñas o datos personales reales.
-
-<!-- CAPTURA 8: registro -->
+<img width="957" height="350" alt="Captura de pantalla 2026-10-22 194616" src="https://github.com/user-attachments/assets/4a2f7331-2fba-471f-8d86-ef3b8322f083" />
 
 ### 8.2 Inicio de sesión
 
@@ -258,17 +243,11 @@ Se abrió `/login` y se comprobó el acceso con las credenciales del usuario de 
 
 **Captura 9 – Formulario de login**
 
-> [!IMPORTANT]
-> Inserta aquí una captura del formulario de login y, si es posible, otra del acceso exitoso a `/home`.
-
-<!-- CAPTURA 9: login -->
+<img width="959" height="329" alt="Captura de pantalla 2026-10-22 192240" src="https://github.com/user-attachments/assets/3d67beb5-9d09-40d3-85df-7606a27605ee" />
 
 ### 8.3 Resultado visible del laboratorio
 
-> [!IMPORTANT]
-> **Captura 10 – Resultado final:** coloca aquí una imagen que muestre el resultado visible del laboratorio, tal como solicita la guía. Puede ser la página `/home` luego de iniciar sesión correctamente.
-
-<!-- CAPTURA 10: resultado final del laboratorio -->
+<img width="959" height="180" alt="Captura de pantalla 2026-10-22 194633" src="https://github.com/user-attachments/assets/b81407d1-e452-4a49-a423-b30d98f77af1" />
 
 ## 9. Dificultades encontradas y soluciones
 
@@ -314,12 +293,8 @@ La guía solicita incluir un respaldo de la base de datos en el repositorio. Des
 
 **Captura 11 – Exportación de la base de datos**
 
-> [!IMPORTANT]
-> Inserta aquí una captura del proceso de exportación o del archivo SQL generado.
+<img width="959" height="374" alt="Captura de pantalla 2026-10-22 204259" src="https://github.com/user-attachments/assets/84b44903-9af6-47a6-8c34-4ee1f6c1059c" />
 
-<!-- CAPTURA 11: backup -->
-
-> Antes de subir el respaldo, revisa que no contenga datos personales o contraseñas reales. Si el laboratorio solo contiene usuarios ficticios, indícalo.
 
 ## 11. Referencias
 
@@ -330,16 +305,15 @@ Completa y verifica las referencias que realmente consultaste durante el laborat
 3. Composer. (s. f.). *Composer documentation*. https://getcomposer.org/doc/
 4. WampServer. (s. f.). *WampServer*. https://www.wampserver.com/
 
-## 12. Fecha de ejecución
+## 12. Fecha de entrega
 
-- **Fecha(s):** [Escribir las fechas reales en que se realizó la práctica]
-- **Fecha de entrega:** [Colocar la fecha indicada por la docente]
+- **Fecha:** 23/10/2026
 
 ## 13. Autor
 
 Este laboratorio ha sido desarrollado por el estudiante de la Universidad Tecnológica de Panamá:
 
-- **Nombre:** [Nombre completo]
-- **Correo:** [Correo académico]
-- **Curso:** Desarrollo Web – Lenguaje de Programación PHP
+- **Nombre:** Marcos Navarro
+- **Correo:** marcos.navarro@utp.ac.pa
+- **Curso:** Desarrollo Web
 - **Instructor del laboratorio:** Ing. Irina Fong
