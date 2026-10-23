@@ -1,4 +1,4 @@
-# Laboratorio #2 – Implementación del Login en Laravel
+# Laboratorio – Implementación del Login en Laravel
 
 > **Universidad Tecnológica de Panamá**  
 > Facultad de Ingeniería de Sistemas Computacionales  
